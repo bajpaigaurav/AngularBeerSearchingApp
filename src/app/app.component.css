@@ -1,0 +1,44 @@
+.beer-type-filter{
+    height: 200px;
+    width: 200px;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+li {
+    list-style-type: none;
+  }
+
+.beer-main-list{
+    height: 400px;
+    overflow-x: auto;
+    position: fixed;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+  }
+  table tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+.search-box{
+    text-align: center;
+    padding-top: 50px;
+
+}
+.sort-buttons{
+    text-align: center;
+    padding-top: 20px;
+}
+.beer-type-filter{
+    position: fixed;
+    height: 400px;
+    border: 1px solid black;
+}
